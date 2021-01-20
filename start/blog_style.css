@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    opacity: 0.8;
+    border-bottom: 1px solid white;
+}
+
+.jumbotron {
+    padding-top: 100px;
+}
+
+@media (min-width:768px) {
+    .main1 {
+        width: 50%;
+        float: left;
+    }
+    .main2 {
+        width: 25%;
+        float: right;
+    }
+}
+
+@media (min-width:768px) {
+    .wd {
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .main1 {
+        margin-right: 100px;
+    }
+    .mainW {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
